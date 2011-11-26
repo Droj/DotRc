@@ -5,7 +5,7 @@
 set -a
 
 QUIET=1
-#QUIET=0
+QUIET=0
 
 [[ $DEBUG == 1 ]] &&
    QUIET=0

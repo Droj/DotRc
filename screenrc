@@ -17,3 +17,5 @@ term xterm
 shell /usr/bin/bash
 setenv LD_LIBRARY_PATH $SCREEN_LD_LIB_PATH
 
+startup_message off
+
