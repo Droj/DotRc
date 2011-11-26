@@ -1,0 +1,19 @@
+
+defscrollback 2000
+
+hardstatus on
+#hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+#hardstatus alwayslastline "%-Lw%{= RW}%50>%n%f* %t%{-}%+Lw%<"
+#hardstatus alwayslastline "%-Lw%{= KW}%50>%n%f* %t%{-}%+Lw%<"
+hardstatus alwayslastline "%-Lw%{= dy}%50>%n%f* %t%{-}%+Lw%<"
+
+shelltitle "$ |shell"
+
+bind ^W windowlist
+bind o title
+
+term xterm
+
+shell /usr/bin/bash
+setenv LD_LIBRARY_PATH $SCREEN_LD_LIB_PATH
+
